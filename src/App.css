@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(9, 27, 46);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container {
+  margin: 5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-top: 5rem;
+}
+.post-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  height: 3rem;
+  border-radius: 5rem;
+}
+.logo-text {
+  font-size: 1.5rem;
   color: white;
+  margin: 0.5rem;
+}
+.span-text {
+  color: darkgrey;
+  margin-left: 0.5em;
 }
 
-.App-link {
-  color: #61dafb;
+.post-text {
+  color: rgb(16, 165, 224);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post-imgSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+.post-img {
+  border-radius: 1rem;
+  height: 13rem;
+}
+.icon-section {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+.icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+}
+.icon-text {
+  margin-left: 0.5rem;
+  color: lightgray;
 }
