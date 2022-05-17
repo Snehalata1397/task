@@ -15,7 +15,7 @@ function Main() {
   return (
     <div className="main-container">
       <div className="container">
-        <img src="../assets/logo1.jpeg" className="logo-img" alt="logo" />
+        <img src="./assets/logo1.jpeg" className="logo-img" alt="logo" />
         <h3 className="logo-text">Some Verified Account</h3>
         <span>
           <GoVerified
@@ -29,7 +29,7 @@ function Main() {
         <p className="post-text">#randomPost Some paragraphs #STAR #NewPost</p>
       </div>
       <div className="post-imgSec">
-        <img src="../assets/image.jpg" alt="post" className="post-img" />
+        <img src="./assets/image.jpg" alt="post" className="post-img" />
       </div>
       <div className="icon-section">
         <div className="icon-item">
